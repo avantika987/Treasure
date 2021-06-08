@@ -67,7 +67,7 @@ function draw() {
 	textSize(20);
 	fill("red");
 	text("You are a treasure hunter \nand your searches for gold \nhave lead you to this house.\nSearch in these three rooms \nand find the hidden treasure.",275,250);
-	  text("  Click left arrow(<-) and \nright arrow(->) to navigate",280,500);
+	text("  Click left arrow(<-) and \nright arrow(->) to navigate",280,500);
 	if(mousePressedOver(door)){
 		i =1;
 	}
